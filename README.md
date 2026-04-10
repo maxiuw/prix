@@ -79,6 +79,10 @@ Evaluation is primarily conducted using the **NavSim** framework:
 | SparseDrive | Camera | 0.61 | 0.08 | 9.0 |
 | **PRIX (ours)** | **Camera** | **0.57** | **0.07** | **11.2** |
 
+### Models
+PRIX 512 and 256 with ResNet-34 are available on HF
+https://huggingface.co/maciejw94/prix512/tree/main
+
 ## Contact
 For questions regarding the paper or implementation, please contact **Maciej Woznia** (maciejw@kth.se) or **Yixi Cai** (yixica@kth.se).
 
