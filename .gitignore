@@ -3,7 +3,6 @@ exp/
 pretrained/
 tutorial
 viz/
-*.png
 models
 docs/
 viz_cart/
