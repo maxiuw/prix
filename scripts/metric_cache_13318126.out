@@ -1,0 +1,39 @@
+Starting job 13318126 on node053
+==================== System Info ====================
+Fri Apr  4 00:55:45 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.230.02             Driver Version: 535.230.02   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:4E:00.0 Off |                    0 |
+| N/A   22C    P0              55W / 400W |      0MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+====================================================
+Running metric caching...
+2025-04-04 00:56:03,714 INFO {/proj/berzelius-2023-364/users/x_liali/DiffusionDrive/navsim/planning/script/builders/worker_pool_builder.py:20}  Building WorkerPool...
+2025-04-04 00:56:04,576 INFO {/proj/berzelius-2023-364/users/x_liali/DiffusionDrive/navsim/planning/utils/multithreading/worker_ray_no_torch.py:51}  Not using GPU in ray
+2025-04-04 00:56:04,576 INFO {/proj/berzelius-2023-364/users/x_liali/DiffusionDrive/navsim/planning/utils/multithreading/worker_ray_no_torch.py:77}  Starting ray local!
+2025-04-04 00:56:19,442 INFO {/home/x_liali/.conda/envs/navsim/lib/python3.9/site-packages/nuplan/planning/utils/multithreading/worker_pool.py:101}  Worker: RayDistributedNoTorch
+2025-04-04 00:56:19,442 INFO {/home/x_liali/.conda/envs/navsim/lib/python3.9/site-packages/nuplan/planning/utils/multithreading/worker_pool.py:102}  Number of nodes: 1
+Number of CPUs per node: 256
+Number of GPUs per node: 0
+Number of threads across all nodes: 256
+2025-04-04 00:56:19,442 INFO {/proj/berzelius-2023-364/users/x_liali/DiffusionDrive/navsim/planning/script/builders/worker_pool_builder.py:31}  Building WorkerPool...DONE!
+2025-04-04 00:56:19,443 INFO {/proj/berzelius-2023-364/users/x_liali/DiffusionDrive/navsim/planning/script/run_metric_caching.py:29}  Starting Metric Caching...
+2025-04-04 00:56:27,990 INFO {/proj/berzelius-2023-364/users/x_liali/DiffusionDrive/navsim/planning/metric_caching/caching.py:140}  Starting metric caching of 136 files...
+2025-04-04 01:17:10,346 INFO {/proj/berzelius-2023-364/users/x_liali/DiffusionDrive/navsim/planning/metric_caching/caching.py:148}  Completed dataset caching! All 12146 features and targets were cached successfully.
+2025-04-04 01:17:10,347 INFO {/proj/berzelius-2023-364/users/x_liali/DiffusionDrive/navsim/planning/metric_caching/caching.py:167}  Node 0: Storing metadata csv file containing cache paths for valid features and targets...
+2025-04-04 01:17:10,592 INFO {/home/x_liali/.conda/envs/navsim/lib/python3.9/site-packages/nuplan/planning/training/experiments/cache_metadata_entry.py:66}  Using cache_metadata_storage_path: /proj/berzelius-2023-364/users/x_liali/DiffusionDrive/exp/metric_cache/metadata/metric_cache_metadata_node_0.csv
+2025-04-04 01:17:10,659 INFO {/proj/berzelius-2023-364/users/x_liali/DiffusionDrive/navsim/planning/metric_caching/caching.py:169}  Done storing metadata csv file.

@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "viz",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "navsim/planning/script/run_pdm_score.py",
+            "console": "integratedTerminal",
+            "args": [
+                "train_test_split=navtest",
+                "agent=prix_agent",
+                "worker=ray_distributed",
+                "agent.checkpoint_path=exp/training_diffusiondrive/shared_cart768/2025.07.01.12.55.24/lightning_logs/version_0/checkpoints/shared768.ckpt",
+                "experiment_name=diffusiondrive_agent_eval"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}" // Optional: Uncomment if your project structure requires it
+            }
+        }
+    ]
+}

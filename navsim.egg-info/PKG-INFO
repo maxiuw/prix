@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: navsim
+Version: 1.1.0
+Summary: NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking
+Home-page: https://github.com/autonomousvision/navsim
+Author: University of Tuebingen
+Author-email: kashyap.chitta@uni-tuebingen.de
+License: apache-2.0
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: Free for non-commercial use
+Requires-Python: >=3.9
+License-File: LICENSE
