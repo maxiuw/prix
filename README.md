@@ -56,6 +56,22 @@ PRIX demonstrates robust planning capabilities in complex urban environments, sa
 <img src="assets/weather_com.png" />
 </div>
 
+## Installation
+
+### 1. Base Environment (NAVSIM)
+PRIX is built on the NAVSIM framework. You must first install the NAVSIM devkit and its dependencies (refer to Navsim repo for that).
+
+We also provide environment.yml and requirements.txt file with dependencies. 
+
+We recommend using conda and after setting up correct conda env
+
+`conda env create --file environment.yml`
+
+`conda activate prix`
+
+`pip install -r requirements.txt`
+
+
 ## NavSim Setup
 Evaluation is primarily conducted using the **NavSim** framework:
 * **NavSim-v1**: Benchmarked in a non-reactive simulation where the agent plans a 4-second trajectory from initial sensor data. Performance is aggregated into the PDM Score (PDMS), which penalizes safety failures while rewarding progress and comfort.
