@@ -59,7 +59,7 @@ PRIX demonstrates robust planning capabilities in complex urban environments, sa
 ## Installation
 
 ### 1. Base Environment (NAVSIM)
-PRIX is built on the NAVSIM framework. You must first install the NAVSIM devkit and its dependencies (refer to Navsim repo for that).
+PRIX is built on the NAVSIM framework. You must first install the NAVSIM devkit and its dependencies [refer to Navsim repo for that](https://github.com/autonomousvision/navsim?tab=readme-ov-file#getting-started-) .
 
 We also provide environment.yml and requirements.txt file with dependencies. 
 
