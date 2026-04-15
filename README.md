@@ -11,7 +11,7 @@
 
 Accepted to IEEE Robotics and Automation Letters (RA-L) 2026! 
 
-[![PRIX Paper](https://img.shields.io/badge/Paper-PRIX-2b9348.svg?logo=arXiv)]([https://maxiuw.github.io/prix](https://arxiv.org/abs/2507.17596))&nbsp;
+[![PRIX Paper](https://img.shields.io/badge/Paper-PRIX-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2507.17596)&nbsp;
 [![Project Website](https://img.shields.io/badge/Project-Website-yellow)](https://maxiuw.github.io/prix)&nbsp;
 
 </div>
